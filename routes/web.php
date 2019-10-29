@@ -18,3 +18,5 @@ Route::get('/', function () {
 Route::get('home',function(){
     returnview('home.index');
 });
+
+Route::get('home','HomeController@index');
