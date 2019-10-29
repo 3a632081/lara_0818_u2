@@ -1,10 +1,10 @@
 <html>
 <head>
-    <title>@yield('title')|MyBlog</title>
+    <title>@yield('title') | MyBlog</title>
 </head>
 <body>
 @include('layouts.partials.navigation')
-<divclass="container">
+<div class="container">
 @yield('content')
 </div>
 </body>
